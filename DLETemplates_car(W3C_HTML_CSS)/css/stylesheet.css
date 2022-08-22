@@ -1,0 +1,71 @@
+@font-face {
+   font-family: 'ArialMT';
+   src: url('../fonts/ArialMT.woff2') format('woff2'),
+      url('../fonts/ArialMT.woff') format('woff');
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'MyriadPro';
+   src: url('../fonts/MyriadPro-Regular.woff2') format('woff2'),
+      url('../fonts/MyriadPro-Regular.woff') format('woff');
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'MyriadPro-Cond';
+   src: url('../fonts/MyriadPro-Cond.woff2') format('woff2'),
+      url('../fonts/MyriadPro-Cond.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Planet Kosmos';
+   src: url('../fonts/PlanetKosmos.woff2') format('woff2'),
+      url('../fonts/PlanetKosmos.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Tahoma';
+   src: url('../fonts/Tahoma.woff2') format('woff2'),
+      url('../fonts/Tahoma.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Tahoma';
+   src: url('../fonts/Tahoma-Bold.woff2') format('woff2'),
+      url('../fonts/Tahoma-Bold.woff') format('woff');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Verdana';
+   src: url('../fonts/Verdana.woff2') format('woff2'),
+      url('../fonts/Verdana.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Verdana';
+   src: url('../fonts/Verdana-Bold.woff2') format('woff2'),
+      url('../fonts/Verdana-Bold.woff') format('woff');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}

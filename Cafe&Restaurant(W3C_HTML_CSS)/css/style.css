@@ -1,0 +1,395 @@
+body {
+  margin: 0 auto;
+}
+
+.wrapper {
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: "Georgia";
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  font-weight: normal;
+  line-height: normal;
+  background: url("../img/template-ico.jpg");
+}
+
+.head,
+.menu,
+.foot {
+  max-width: 1037px;
+  margin: 0 auto;
+}
+
+.head {
+  padding-bottom: 215px;
+}
+
+.head-logo {
+  padding-left: 45px;
+}
+
+.head-logo__phone {
+  display: inline-block;
+  font-family: "Fertigo";
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+
+.home-deliv {
+  color: #a2745a;
+  font-size: 25px;
+  padding-top: 30px;
+  margin-bottom: -5px;
+}
+
+.home-deliv__phone {
+  color: #9e9997;
+  font-size: 35px;
+}
+
+.label-ico {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 141px;
+  padding-top: 10px;
+}
+
+.seach {
+  display: inline-block;
+  vertical-align: top;
+  width: 252px;
+  margin: 30px 0 0 140px;
+  color: #e3bba5;
+}
+
+.faq {
+  text-transform: uppercase;
+}
+
+.seach-block {
+  width: 252px;
+  padding-left: 20px;
+  margin-top: -10px;
+  border: 2px solid #7d5642;
+  border-radius: 15px;
+  background-color: #130907;
+  color: #a2745a;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+
+.seach-ico {
+  padding: 10px 0 0 170px;
+}
+
+.menu {
+  background: url("../img/list-icon.png") no-repeat;
+  height: 1480px;
+  margin: 0 auto;
+  position: relative;
+  top: -200px;
+  left: 50px;
+}
+
+.paper {
+  margin-left: 37px;
+}
+
+.navigation {
+  width: 930px;
+  background-color: #f5e5dd;
+  color: #513a2d;
+  border-top: 2px dotted #573f32;
+  border-bottom: 2px dotted #573f32;
+  font-family: "Fertigo";
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.navigation-home {
+  color: #c3535c;
+}
+
+.paper-header__block {
+  padding: 55px 0 30px 0;
+  margin-left: -23px;
+  margin-bottom: 30px;
+}
+
+.navigation span {
+  padding-right: 11px;
+}
+
+.background-restaurant {
+  background: url("../img/background-ico1.png") no-repeat;
+  margin-top: -30px;
+}
+
+.background-restaurant__text {
+  display: inline-block;
+  margin-top: -73px;
+}
+
+.label-title {
+  width: 289px;
+  padding: 77px 0 0 29px;
+  text-shadow: 0 2px 5px rgba(183, 70, 28, 0.5);
+  color: #fff600;
+  font-family: "Fertigo";
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: center;
+}
+
+.order-block {
+  width: 156px;
+  height: 60px;
+  color: #3c2219;
+  background-color: #fefefe;
+  border: 0 solid #fff;
+  border-radius: 10px;
+  margin-left: 90px;
+  font-family: "Fertigo";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 65px;
+  text-align: center;
+}
+
+.tea-img {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translate(4px, 5px);
+  margin-bottom: 54px;
+}
+
+.recipe {
+  display: inline-block;
+  margin-left: -2px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.recipe-block__yellow {
+  display: inline-block;
+  vertical-align: top;
+  width: 282px;
+  background: url("../img/list-yellow.png") no-repeat;
+  margin-bottom: 31px;
+}
+
+.recipe-block__tomato {
+  display: inline-block;
+  vertical-align: top;
+  width: 282px;
+  background: url("../img/list-tomato.png") no-repeat;
+  margin: 0 21px;
+}
+
+.recipe-block__green {
+  display: inline-block;
+  vertical-align: top;
+  width: 282px;
+  background: url("../img/list-green.png") no-repeat;
+}
+
+.recipe-title {
+  color: #af182a;
+  margin-top: 10px;
+  font-family: "Fertigo";
+  font-size: 35px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.maki {
+  position: relative;
+  top: -35px;
+  width: 250px;
+  padding-left: 20px;
+  color: #513a2d;
+}
+
+.reciple-img {
+  margin-top: -20px;
+}
+
+.recipe-text {
+  color: #513a2d;
+  font-family: "Georgia";
+  font-size: 13px;
+  font-weight: 400;
+  padding: 0 31px 41px 37px;
+  text-align: left;
+}
+
+.items-menus {
+  width: 888px;
+  background-color: #f4e5dc;
+  border-bottom: 2px solid #ad8c79;
+  box-shadow: 0 15px 0 #cea893;
+  margin-bottom: 65px;
+}
+
+.block-items {
+  display: inline-block;
+}
+
+.text-right {
+  padding-left: 11px;
+}
+
+.block-items__menu {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 34px;
+  color: #af182a;
+  font-family: "Fertigo";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.items-text__one {
+  display: inline-block;
+  color: #513a2d;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: none;
+  text-align: left;
+}
+
+.items-text__two {
+  display: inline-block;
+  vertical-align: top;
+  color: #513a2d;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: none;
+  text-align: left;
+  padding-left: 34px;
+}
+
+.items-videos {
+  display: inline-block;
+  vertical-align: top;
+  width: 278px;
+  margin-left: 34px;
+}
+
+.cap-ico {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  top: -140px;
+  left: 20px;
+}
+
+.items-videos,
+.items-testimonials {
+  color: #af182a;
+  font-family: "Fertigo";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.block-videos__menu {
+  display: inline-block;
+}
+
+.see-more {
+  margin-top: -120px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 18px;
+  text-align: left;
+  text-transform: none;
+}
+
+.items-testimonials {
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+  margin-left: 25px;
+}
+
+.testimonials-text {
+  color: #513a2d;
+  font-family: "Georgia - Italic";
+  font-size: 13px;
+  font-style: italic;
+  letter-spacing: normal;
+  line-height: 18px;
+  text-align: left;
+  text-transform: none;
+}
+
+.testimonials-text p {
+  font-family: "Georgia - Bold Italic";
+  font-size: 15px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.social-block {
+  width: 305px;
+  padding-top: 15px;
+  margin-left: -25px;
+  border-top: 2px dotted #573f32;
+}
+
+.social-block__thems {
+  position: relative;
+  width: 318px;
+  top: -30px;
+  left: 305px;
+}
+
+.border-right {
+  border-top: 2px dotted #573f32;
+  position: relative;
+  width: 318px;
+  top: -60px;
+  left: 610px;
+}
+
+.foot {
+  margin-bottom: -200px;
+  padding: 10px 0 20px 10px;
+  width: 900px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  background-color: #9c7057;
+  position: relative;
+  top: -270px;
+  left: 10px;
+}
+
+.foot-title__text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.foot-title__copirate {
+  margin-left: 90px;
+}
+
+.cafe-restour {
+  color: #f4e5dc;
+}

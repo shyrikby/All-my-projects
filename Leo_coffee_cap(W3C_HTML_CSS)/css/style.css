@@ -1,0 +1,610 @@
+/* *{
+	box-sizing: border-box;
+} */
+
+@font-face {
+	font-family: "MrsEaves";
+	src: url("../fonts/MrsEaves-Italic.woff2") format("woff2"),
+		url("../fonts/MrsEaves-Italic.woff") format("woff");
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Segoe WP";
+	src: url("../fonts/Segoe WP.woff2") format("woff2"),
+		url("../fonts/Segoe WP.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Univers-Light-Normal";
+	src: url("../fonts/Univers-Light-Normal.woff2") format("woff2"),
+		url("../fonts/Univers-Light-Normal.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Arial MT Narrow";
+	src: url("../fonts/ArialMTNarrow.woff2") format("woff2"),
+		url("../fonts/ArialMTNarrow.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	width: 1280px;
+	max-height: 2500px;	
+	margin-left: auto;
+	margin-right: auto;	
+	margin-bottom: 5px;
+}
+
+.heads {
+	background-image: url(../img/bacground_color.png);
+	width: 1280px;
+	height: 867px;
+	opacity: 1;
+}
+
+.heads_content {	
+	width: 222px;
+	height: 75px;
+	opacity: 0.5;
+	color: #ffffff;
+	font-family: "Mrs Eaves Italic";
+	font-size: 119px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 32.99px;
+	text-align: justify;	
+}
+
+.heads__content-img {
+	padding-top: 58px;
+	padding-left: 219px;
+	padding-right: 189px;
+	padding-bottom: 70px;
+}
+
+.menu-sitebar {
+	display: inline;
+	padding-right: 54px;	
+	color: #fff;
+	font-family: "Segoe WP";
+	font-size: 23px;
+	font-weight: 100;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: justify;	
+}	
+
+.shape__chircle-left {
+	padding-left: 55px;
+	padding-right: 126px;
+	width: 60px;
+	height: 60px;	
+	opacity: 0.5;
+	vertical-align: top;
+	padding-top: 80px;
+}
+
+.baner__text {	
+	font-family: "Segoe WP";
+	font-size: 65px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;				
+}	
+
+.heads__content-text {	
+	display: inline-block;	
+	vertical-align: top;
+	width: 337px;
+	height: 112px;
+	color: #ffffff;	
+	padding-left: 72px;
+	padding-top: 50px;
+}	
+
+.baner__text-title {		
+	font-size: 30px;
+	font-family: "Arial MT Narrow";
+	font-weight: 100;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;		
+	padding-bottom: 28px;
+}
+
+.baner__btn {		
+	width: 138px;
+	height: 38px;
+	border: 4px solid rgba(0, 0, 0, 0.37);
+	background-color: #12b367;
+	opacity: 0.9;
+}
+
+.demo {
+	width: 93px;
+	height: 23px;
+	color: #ffffff;
+	font-family: "Arial MT Narrow";
+	font-size: 20px;
+	font-weight: 100;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: justify;
+}
+
+.heads__content-intro {
+	padding-top: 28px;
+}
+
+.shape__chircle-right {		
+	display: inline;
+	vertical-align: top;	
+	padding-left: 150px;
+	padding-top: 85px;
+	width: 60px;
+	height: 60px;	
+	opacity: 0.5;		
+}
+
+.heads__content-bottom {
+	max-width: 975px;
+	height: 225px;	
+	padding-left: 110px;
+	padding-left: 10%;
+}
+
+.wasteland {
+	width: 1022px;
+	height: 1070px;
+}
+
+.content-bottom {
+	transform: translate(0, -1053px);
+}
+
+.rhomb__phone {
+	display: inline-block;
+}
+
+.rhomb__phone-combination {	
+	transform: translate(100px, 0);
+}
+
+.rhomb__phone-title {
+	padding-left: 70px;
+	width: 121px;
+	height: 47px;
+	color: #5c5b5b;
+	font-family: "Segoe WPN";
+	font-size: 27px;
+	font-weight: 300;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: center;
+}
+
+
+.rhomb__cart {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 55px;
+}
+
+.rhomb__cart-combination {	
+   transform: translate(110px, 0);
+}
+
+.rhomb__cart-title {
+	padding-left: 60px;
+	width: 150px;
+	height: 47px;
+	color: #5f5f5f;
+	font-family: "Segoe WPN - Semibold";
+	font-size: 27px;
+	font-weight: 500;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: center;
+}
+
+.rhomb__earth {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 30px;
+}
+
+.rhomb__earth-combination {	
+	transform: translate(120px, 0);
+}
+
+.rhomb__earth-title {
+	padding-left: 100px;
+	width: 115px;
+	height: 48px;
+	color: #676666;
+	font-family: "Segoe WPN";
+	font-size: 27px;
+	font-weight: 300;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: center;
+}
+
+.rhomb__search {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 30px;
+}
+
+.rhomb__search-combination {	
+	transform: translate(115px, 0);
+}
+
+.rhomb__search-title {
+	padding-left: 70px;
+	width: 146px;
+	height: 48px;
+	color: #7b7a7a;
+	font-family: "Segoe WPN";
+	font-size: 27px;
+	font-weight: 300;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: center;
+}
+
+.section-content {
+	width: 1280px;
+	height: 1280px;
+}
+
+.laptop-img {
+	padding-top: 46px;
+	padding-left: 280px;
+}
+
+.section__wrap {
+	width: 897px;
+	height: 296px;
+	padding-left: 186px;
+	padding-top: 30px;
+}
+
+.section__wrap-description {
+	width: 568px;
+	height: 39px;
+	color: #4f4f4f;
+	font-family: "Segoe WPN";
+	font-size: 39px;
+	font-weight: 100;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+	opacity: 0.7;
+}
+
+.section__wrap-text {
+	width: 897px;
+	height: 229px;
+	color: #818181;
+	font-family: "Univers CE";
+	font-size: 16px;
+	font-weight: 300;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 24px;
+	text-align: left;
+	opacity: 0.8;
+}
+
+.section__wrap-website {	
+	width: 1110px;
+	height: 338px;
+	padding-left: 96px;
+	padding-top: 95px;
+	padding-bottom: 44px;
+} 
+
+.wrap-website__img {
+   display: inline-block;
+}
+
+.website-img {
+   width: 480px;
+   height: 340px;
+}
+
+.check__icon-text {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.website__text-description {
+	width: 225px;
+	height: 33px;	
+	color: #4f4f4f;
+	font-family: "Segoe WPN";
+	font-size: 33px;
+	font-weight: 300;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+	opacity: 0.8;
+	padding-bottom: 30px;
+}
+
+.wrap-website__text {
+	display: inline-block;
+	vertical-align: top;
+	max-width: 576px;
+	height: 205px;
+	color: #8a8888;
+	font-family: "Univers CE";
+	font-size: 17.5px;
+	font-weight: 300;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 38px;
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 50px;
+}
+
+hr {
+	opacity: 0.25;
+}
+
+.personal__data {
+	padding-top: 15px;
+	padding-left: 115px;	
+	margin-bottom: 55px;
+	width: 1280px;
+	height: 133px;
+}
+
+.personal__data-login {
+	display: inline-block;	
+	width: 470px;
+	height: 109px;
+	background-color: #e67624;
+	padding-top: 15px;
+}
+
+.personal__data-subscribe {
+	display: inline-block;
+	vertical-align: top;	
+	margin-left: 67px;
+	width: 470px;
+	height: 109px;
+	background-color: #01d4f3;
+	padding-top: 17px;
+}
+
+.member-login {
+	width: 162px;
+	height: 28px;	
+	padding-left: 28px;
+	color: #ffffff;
+	font-family: "Segoe WPN";
+	font-size: 25px;
+	font-weight: 100;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 21px;
+	text-align: left;
+}
+
+.click {
+	width: 414px;
+	height: 26px;
+	padding-top: 20px;
+	padding-left: 29px;
+}
+
+.forma__names {
+	width: 155px;
+	height: 26px;
+	background-color: #e8e8e8;	
+}
+
+.forma__password {
+	width: 150px;
+	height: 26px;
+	background-color: #fff;
+}
+
+.btn__click {
+	border: none;
+	display: inline-block;
+	vertical-align: top;
+	width: 85px;
+	height: 30px;
+	font-size: 12px;
+	background-color: #000000;
+	color: #e8e8e8;
+}
+
+.subscribe {
+	width: 403px;
+	height: 28px;
+	padding-left: 28px;
+	color: #ffffff;
+	font-family: "Segoe WPN";
+	font-size: 25px;
+	font-weight: 100;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 21px;
+	text-align: left;
+}
+
+.email-post {
+	padding-top: 22px;
+	padding-left: 29px;
+}
+
+.forma__email {
+	width: 265px;
+	height: 26px;
+	margin-right: 40px;
+}
+
+.btn__email {
+	width: 111px;
+	height: 30px;
+	background-color: #413333;
+	color: #e8e8e8;
+	opacity: 0.5;
+	font-family: "Segoe WPN";
+	font-size: 17px;
+	font-weight: 100;
+	font-style: normal;
+	letter-spacing: normal;	
+}
+
+.vacuum {
+	width: 1280px;
+	height: 35px;
+	padding-top: 35px;
+	background-color: #fff;
+	text-align: center;
+	opacity: 0;
+}
+
+.container {
+	width: 1280px;
+	height: 243px;
+	background-color: #2c2d2b;
+	color: #abacac;
+	padding-top: 34px;
+}
+
+h4 {
+	width: 110px;
+	height: 18px;
+	margin-bottom: 20px;
+	color: #ffffff;
+	font-family: "Segoe WP";
+	font-size: 22px;
+	font-weight: 300;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 33px;
+	text-align: left;
+}
+
+.container__about-us {
+	display: inline-block;
+	width: 103px;
+	height: 155px;
+	padding-left: 175px;
+
+}
+
+.about-us-text {
+	width: 101px;
+	height: 120px;
+	opacity: 0.5;
+	font-family: "Arial MT";
+	font-size: 15px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 22px;
+	text-align: left;
+}
+
+.container__about-out {
+	display: inline-block;
+	vertical-align: top;
+	width: 103px;
+	height: 155px;
+	margin-left: 86px;
+	margin-right: 88px;
+}
+
+.about-out-text {
+	width: 101px;
+	height: 120px;
+	opacity: 0.5;
+	font-family: "Arial MT";
+	font-size: 15px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 22px;
+	text-align: left;
+}
+
+.container__testimoanials {
+	display: inline-block;
+	vertical-align: top;
+	width: 316px;
+	height: 159px;
+}
+
+.badge__icon {
+	transform: translate(0, -70px);
+	padding-left: 200px;
+}
+
+.testimoanials-opycaty {	
+	width: 316px;
+	height: 79px;
+	opacity: 0.5;
+	color: #ffffff;
+	font-family: "Arial MT";
+	font-size: 13px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 22px;
+	text-align: left;
+}
+
+.testimoanials-text {
+   width: 141px;
+	height: 35px;
+	padding-top: 15px;
+	opacity: 0.76;
+	color: #ffffff;
+	font-family: "Arial - Bold MT";
+	font-size: 13px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 22px;
+	text-align: left;
+}
+
+.footer__content {
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 68px;
+	padding-left: 44px;
+}
+
+.customer {
+	padding-top: 38px;
+}

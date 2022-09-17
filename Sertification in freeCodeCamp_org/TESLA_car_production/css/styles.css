@@ -1,0 +1,70 @@
+body {  
+   background-color: rgba(240, 4, 158, 0.03);
+   padding-top: 15px 0;
+   font-size: 16px;
+   font-family: "Roboto" sans-serif;
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+header {
+  display: flex;   
+  align-items: flex-start;
+  align-items: stretch;
+  position: sticky;
+  top: 0; 
+  z-index: 999;
+}
+svg {     
+  margin-right: 45%;
+  width: 300px;
+  color: rgb(110, 102, 102);
+}
+ul, li {
+  display: flex;
+  justify-content: space-between;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 35px;
+  width: 110%;
+  list-style: none; 
+  padding-right: 15px;
+}
+a {
+  text-decoration: none;  
+  color: rgb(110, 102, 102);
+  margin-right: 10px; 
+}
+section {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; 
+  margin-bottom: 20px;
+}
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+form {
+   text-align: center;  
+   font-size: 22px;  
+   margin-bottom: 20px;
+}
+input {
+   padding: 15px;
+   border-radius: 15%;
+   width: 200px;
+}
+
+
+@media (max-width: 1000px) {
+  body {
+    width: 90%;
+  }
+}
